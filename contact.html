@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="utf-8">
+	<!-- Linking CSS -->
+	<link rel="stylesheet" type="text/css" 
+	href="assets\css\reset.css">
+	<link rel="stylesheet" type="text/css" 
+	href="assets\css\style.css">
+</head>
+
+<body >
+
+<div class="content">
+
+<header>
+
+	<div class="container">
+
+		<div class="firstCol" id="name">
+			<p id="nameWidth">
+			 Christian R Ferrell
+			 </p>
+		</div>
+  			
+  		<div class="secondCol">
+ 			<ul class="upRight"> 
+				<li class="navLinks">
+					<a href="index.html" class="button">
+						<span>About </span>
+					</a>
+				</li>
+  				<li class="navLinks">
+  					<a href="portfolio.html" class="button">
+						<span>Portfolio </span>
+					</a>
+  				</li>
+  				<li class="navLinks">
+  					<a href="contact.html" class="button">
+						<span>Contact </span>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+</header>	
+
+	<div class="container">
+	
+		<!-- this is the stuff that changes from page to page -->
+		<div class="firstCol">
+
+			<h1>
+				Contact Me:
+			</h1>
+
+			<div class="submitContainer">
+				<form action="/action_page.php">
+
+					<label for="nameSubmit">Name</label>
+					<input type="text" id="nameSubmit" name="nameSubmit" placeholder="Your name..">
+
+					<label for="emailSubmit">Email</label>
+					<input type="text" id="emailSubmit" name="emailSubmit" placeholder="Your email..">
+
+					<label for="messageSubmit">Message</label>
+					<textarea id="messageSubmit" name="messageSubmit" placeholder="Write something.." style="height:200px"></textarea>
+
+					<input type="submit" value="Submit">
+
+				</form>
+
+			</div>	
+		</div>
+
+		<!-- this is the stuff that does not change from page to page -->
+		<div class="secondCol">
+		
+			<h2>
+				Connect with me
+			</h2>	
+
+			<a href="https://www.facebook.com/cferrell77">
+				<img id="linkImage" src="assets\images\Facebook.png" alt="Facebook Profile">
+			</a>
+
+			<a href="https://github.com/CRFerrell77">
+				<img id="linkImage" src="assets\images\GitHub.png" alt="GitHub Profile">
+			</a>
+
+			<a href="https://www.linkedin.com/in/ferrellchristianr/">
+				<img id="linkImage" src="assets\images\LinkedIn.png" alt="LinkedIn Profile">
+			</a>
+
+		</div>
+
+	</div>
+</div>
+	
+</body>
+
+<footer>
+	&copy; Copyright 2017 Christian R Ferrell	
+</footer>
+
+</html>
