@@ -1,136 +1,87 @@
 <!DOCTYPE html>
-<html lang="en-us">
+
+<html lang="en">
 
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- Linking reset -->
+	<link rel="stylesheet" type="text/css" 	href="assets\css\reset.css">
+
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
 	<!-- Linking CSS -->
-	<link rel="stylesheet" type="text/css" 
-	href="assets\css\reset.css">
-	<link rel="stylesheet" type="text/css" 
-	href="assets\css\style.css">
+	<link rel="stylesheet" type="text/css" 	href="assets\css\style.css">
+		
 </head>
 
-<body >
+<body>
 
-<div class="content">
-
-<header>
-
-	<nav>
+	<nav class="navbar navbar-default navbar-static-top">
+		 <!-- why all the befores? juest to push to the 'front' of the navbar? or is this before the collapse? -->
 		<div class="container">
-
-			<div class="firstCol" id="name">
-				<p id="nameWidth">
-				 Christian R Ferrell
-				 </p>
+			
+			<div class="navbar-header">
+				
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">  <!--what is that?-->
+					<span class="sr-only">Toggle Navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#" id="name">Christian R Ferrell</a>
+				
 			</div>
-	  			
-	  		<div class="secondCol">
-	 			
-	 			<ul class="upRight"> 
-					<li class="navLinks">
-						<a href="index.html" class="button">
-							<span>About </span>
-						</a>
+			<div id="navbar" class="navbar-collapse collapse"> 
+				
+				<ul class="nav navbar-nav navbar-right"> 
+					
+					<li>
+						<a href="index.html">About</a>
 					</li>
-	  				<li class="navLinks">
-	  					<a href="portfolio.html" class="button">
-							<span>Portfolio </span>
-						</a>
-	  				</li>
-	  				<li class="navLinks">
-	  					<a href="contact.html" class="button">
-							<span>Contact </span>
-						</a>
+					<li>
+						<a href="portfolio.html">Portfolio</a>
 					</li>
+					<li>
+						<a href="contact.html">Contact</a>
+					</li>
+					
 				</ul>
-
+				
 			</div>
-		
+			<!-- nav collapse -->
+			
 		</div>
+		
 	</nav>
 
-</header>	
+    <h1>Hello, world!</h1>
 
-	<div class="container">
-	
-		<!-- this is the stuff that changes from page to page -->
-		<div class="firstCol">
-		
-			<h1>
-				About Me
-			</h1>
-				
-			<img id="bioImage" src="assets\images\pictureBrok.jpg">
-
-			<p>Spicy jalapeno bacon ipsum dolor amet consectetur ut id enim ut reprehenderit. Est cillum bacon swine do dolore, esse landjaeger. Sed bacon meatball in, reprehenderit voluptate consequat duis ball tip. Ut id in quis shankle, chuck flank pariatur short loin tail et.
-			</p>
-			<br>
-			<p>
-			Landjaeger ut esse, laboris prosciutto t-bone quis cupidatat pork chop jerky. Rump adipisicing non incididunt, do duis sint. Minim kielbasa t-bone, ut deserunt fugiat eu. Duis salami capicola boudin strip steak drumstick. Porchetta irure aliqua reprehenderit adipisicing. Turducken mollit deserunt dolore.
-			</p>
-			<br>
-			<p>
-			Sint turducken jowl, pork loin cillum do fugiat drumstick exercitation pork belly porchetta ground round in. Shankle bresaola fugiat ribeye turducken deserunt. Occaecat fugiat ribeye in. Pork chop aliquip tri-tip cillum biltong flank turducken cow kevin consequat pastrami exercitation.
-			</p>
-			<br>
-
-		</div>
-
-		<!-- this is the stuff that does not change from page to page -->
-		<div class="secondColB">
-		
-			<div class="alignCen">
-			
-			<h2>
-				Connect with me
-			</h2>	
-
-			<ul class="upRight"> 
-				<li class="navLinks">
-					<a href="https://www.facebook.com/cferrell77">
-						<img id="linkImage" src="assets\images\Facebook.png" alt="Facebook Profile">
-					</a>
-				</li>
-  				<li class="navLinks">
-					<a href="https://github.com/CRFerrell77">
-						<img id="linkImage" src="assets\images\GitHub.png" alt="GitHub Profile">
-					</a>
-  				</li>
-  				<li class="navLinks">
-					<a href="https://www.linkedin.com/in/ferrellchristianr/">
-						<img id="linkImage" src="assets\images\LinkedIn.png" alt="LinkedIn Profile">
-					</a>
-				</li>
-			</ul>
-
-<!-- old version
-			<a href="https://www.facebook.com/cferrell77">
-				<img id="linkImage" src="C:\Users\Broccoli\Basic-Portfolio\assets\images\Facebook.png" alt="Facebook Profile">
-			</a>
-
-			<a href="https://github.com/CRFerrell77">
-				<img id="linkImage" src="C:\Users\Broccoli\Basic-Portfolio\assets\images\GitHub.png" alt="GitHub Profile">
-			</a>
-
-			<a href="https://www.linkedin.com/in/ferrellchristianr/">
-				<img id="linkImage" src="C:\Users\Broccoli\Basic-Portfolio\assets\images\LinkedIn.png" alt="LinkedIn Profile">
-			</a>
--->
-
-			</div>
-
-		</div>
-
-	</div>
-
-</div>	
-	
-</body>
-
-<footer>
-	&copy; Copyright 2017 Christian R Ferrell	
-</footer>
-
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>
