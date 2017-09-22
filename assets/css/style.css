@@ -30,8 +30,8 @@
 #bioImage {
     width: 200px;
     height: 200px;
-    /* margin-right: 20px;
-    float: left; */
+    margin-right: 20px;
+    
 }
 
 #linkImage {
@@ -77,6 +77,7 @@ footer {
     border-style: solid;
     border-width: 5px 0px 0px 0px;
     border-color: #4aaaa5;
+    /* sticky footer */
     position: absolute; 
     left: 0 ; right: 0; bottom: 0; 
     height:[footer-height] 
